@@ -1,7 +1,15 @@
-<div class ="nav-bar">
-    <ul class="rooms-list" >
-        <li class="room-name" ng-repeat="room in main.chatRoomArray">
-            {{room.$value}}
-        </li>
-    </ul>
+<div class="parent">
+    <div class="nav-bar">
+        <div class="title">
+            Bloc Chat
+        </div>
+        <ul class="rooms-list" >
+            <li class="room-name" ng-repeat="room in home.chatRoomArray">
+                {{room.$value}}
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        chat area
+    </div>
 </div>

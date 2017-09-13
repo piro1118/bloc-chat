@@ -1,0 +1,39 @@
+.parent {
+    overflow: hidden;
+}
+.nav-bar {
+  float: left;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 23%;
+  max-width: 250px;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #DDDDDD;
+}
+
+.main {
+    float: right;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 100%;
+    background-color: white;
+    width: 70%;
+}
+
+.title {
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.rooms-list {
+
+}
+
+.room-name {
+    margin: 5px;
+    color: gray;
+}
