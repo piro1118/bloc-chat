@@ -9,7 +9,7 @@
     Room.add = function(roomname) {
         rooms.$add(roomname).then(function(ref) {
             var id = ref.key;
-            console.log("added "+ roomName + " with id " + id);
+            console.log("added "+ roomname + " with id " + id);
             rooms.$indexFor(id);
         });
     };
