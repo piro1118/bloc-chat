@@ -17,6 +17,21 @@
   background-color: #DDDDDD;
 }
 
+.title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.rooms-list {
+
+}
+.room-name {
+    margin: 5px;
+    color: gray;
+}
+
+
+
 .main {
     overflow: auto;
     padding-top: 1.5rem;
@@ -26,17 +41,22 @@
     background-color: white;
 }
 
-.title {
-    display: inline-block;
-    font-weight: bold;
+.room-title{
     font-size: 1.4rem;
 }
 
-.rooms-list {
-
+.messages-list li {
+  padding-bottom: 3px;
+  border-bottom: solid 1px;
+  border-color: rgb(190, 190, 190);
+  list-style-type: none!important;
 }
 
-.room-name {
-    margin: 5px;
-    color: gray;
+.message-username, .message-time{
+  color: rgb(190, 190, 190);
+  font-size: 0.8rem;
+}
+
+.message-time {
+  float: right;
 }
