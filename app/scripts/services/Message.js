@@ -11,6 +11,11 @@
             return array;
         };
 
+
+        Message.send = function(newMessage, roomId, user, currentTime){
+            messages.$add({content: newMessage, roomId: roomId, user: user, sentAt: currentTime});
+        };
+
         return Message;
     }
 

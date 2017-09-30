@@ -24,6 +24,13 @@
             main.currentRoomTitle = room.$value;
         };
 
+        main.sendMessage = function(){
+            var currentTime = new Date().getHours() + ":" + new Date().getMinutes();
+            Message.send(main.message, main.currentRoomId, $cookies.get("blocChatCurrentUser"), currentTime);
+            //Message.send(main.message, main.currentRoomId, $cookies.get("blockChatCurentUser"), currentTime);
+            main.message = "";
+        };
+
     }
     angular
         .module('blocChat')
